@@ -31,7 +31,7 @@ cup = Cup.new
 puts "You have an empty cup."
 puts "1. Fill it\n"\
      "2. Spill it\n"\
-     "3. Move on.\n"
+     "3. Move on\n"
 
 until (input = gets.chomp) == '3'
   if input == '1'
